@@ -1,0 +1,49 @@
+.tnl-switcher {
+  display: flex;
+  align-items: center;
+}
+
+.tnl-switcher-title {
+  color: #878786;
+  margin-right: 10px;
+}
+
+.tnl-switcher-name {
+  color: #424242;
+  font-weight: 600;
+}
+
+.tnl-switcher-active-left .tnl-switcher-name-left {
+  color: #e57777;
+}
+
+.tnl-switcher-active-right .tnl-switcher-name-right {
+  color: #e57777;
+}
+
+.tnl-switcher-button {
+  position: relative;
+  margin: 0 10px;
+  height: 24px;
+  width: 44px;
+  border-radius: 15px;
+  background: #e57777;
+}
+
+.tnl-switcher-button::after {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 22px;
+    background: #fff;
+    top: 1px;
+    border-radius: 15px;
+}
+
+.tnl-switcher-active-left .tnl-switcher-button::after {
+    left: 1px;
+}
+
+.tnl-switcher-active-right .tnl-switcher-button::after {
+    right: 1px;
+}
