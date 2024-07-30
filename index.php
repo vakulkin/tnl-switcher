@@ -7,6 +7,8 @@
  * Text Domain: tnl-switcher
  */
 
+// example [tnl_switcher title="Klient:" left_url="/" left_name="Indywidualny" right_url="http://your-site.url/b2b/" right_name="Biznesowy"]
+
 namespace TNL_Switcher;
 
 defined('ABSPATH') || exit;
